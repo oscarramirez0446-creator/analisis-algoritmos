@@ -15,7 +15,7 @@ def saludar():
     nombre =entrada.get().strip()
     if not nombre:
         nombre = "mundo"
-    lbl.config(text=f"Hola mundo, {nombre}")
+    lbl.config(text=f"Hola Oscar, {nombre}")
 root = tk.Tk()
 root.title("Saludador")
 root.geometry("360x220")
